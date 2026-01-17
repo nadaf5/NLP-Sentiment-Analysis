@@ -50,5 +50,5 @@ The model is trained using the **Adam optimizer** and **categorical cross-entrop
 ##  Hugging Face Integration
 The project also demonstrates integration with a pretrained Hugging Face transformer model (**DistilBERT fine-tuned on SST-2**) to highlight the limitations of binary sentiment models when applied to multi-class Twitter datasets.
 
-## ✅ Conclusion
+##  Conclusion
 This project demonstrates practical experience with modern NLP techniques, transformer-based embeddings, neural network modeling, and systematic evaluation. It provides a complete, end-to-end sentiment analysis workflow suitable for **academic coursework** and **machine learning portfolios**.
