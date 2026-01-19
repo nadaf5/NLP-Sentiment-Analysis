@@ -57,26 +57,26 @@ This section showcases key visualizations that help understand the data and the 
 ---
 
 ### 1. Training Progress
-![Training Progress](training_progress.png.jpg)  
+![Training Progress](training_progress.png)  
 This figure shows the **training progress** of the model, including training **accuracy and loss** across epochs, to track the model’s improvement.
 
 ---
 
 ### 2. Neural Network Architecture
-![Neural Network](neural_network.png.jpg)  
+![Neural Network](neural_network.png)  
 This diagram displays the **architecture of the neural network**, including layers and the number of units in each layer, providing an overview of the model design.
 
 ---
 
 ### 3. Class & Platform Confusion Matrix
-![Class & Platform Confusion Matrix](class_platform_confusion_matrix.png.jpg)  
+![Class & Platform Confusion Matrix](class_platform_confusion_matrix.png)  
 The confusion matrix shows the model’s performance in classifying **classes and platforms**, highlighting common misclassifications between categories.
 
 ---
 
 ### 4. Class & Tweet Length Distribution
-![Class & Tweet Length Distribution](Class_Tweet_Length_Distribution.png)
-This plot illustrates the distribution of classes and tweet lengths in the dataset, helping to understand data balance and text length variations.
+![Class & Tweet Length Distribution](class_tweet_length_distribution.png)  
+This plot illustrates the **distribution of classes and tweet lengths** in the dataset, helping to understand data balance and text length variations.
 
 ---
 
