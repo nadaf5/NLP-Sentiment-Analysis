@@ -75,8 +75,8 @@ The confusion matrix shows the model’s performance in classifying **classes an
 ---
 
 ### 4. Class & Tweet Length Distribution
-![Class & Tweet Length Distribution](Class & Tweet Length Distribution.png.jpg)  
-This plot illustrates the **distribution of classes and tweet lengths** in the dataset, helping to understand data balance and text length variations.
+![Class & Tweet Length Distribution](Class_Tweet_Length_Distribution.png)
+This plot illustrates the distribution of classes and tweet lengths in the dataset, helping to understand data balance and text length variations.
 
 ---
 
