@@ -78,5 +78,3 @@ The confusion matrix shows the model’s performance in classifying **classes an
 This plot illustrates the **distribution of classes and tweet lengths** in the dataset, helping to understand data balance and text length variations.
 
 
----
-
