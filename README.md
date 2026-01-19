@@ -1,18 +1,15 @@
-# NLP-Sentiment-Analysis
-This project performs sentiment analysis on 27,000 Twitter tweets, classifying them as negative, neutral, or positive using DistilBERT embeddings and a TensorFlow/Keras neural network. It demonstrates preprocessing, transformer-based text representation, and model evaluation, providing a complete NLP workflow for academic or portfolio use.
-
 # Twitter Tweets Sentiment Analysis using NLP and Transformers
 
-## 📌 Project Overview
+##  Project Overview
 This project implements a complete **Natural Language Processing (NLP)** pipeline for sentiment analysis on Twitter data. The objective is to automatically classify tweets into three sentiment categories: **negative**, **neutral**, and **positive**. The dataset used is the *Twitter Tweets Sentiment Dataset* from Kaggle, which contains approximately **27,000 labeled tweets**. Due to the short and informal nature of tweets, sentiment analysis presents challenges such as slang, abbreviations, sarcasm, and noisy text.
 
-## 📊 Dataset
+##  Dataset
 - **Source:** Kaggle – Twitter Tweets Sentiment Dataset  
 - **Size:** ~27,000 tweets  
 - **Labels:** Negative, Neutral, Positive  
 - **Data Characteristics:** Short text, informal language, social media noise  
 
-## 🔍 Exploratory Data Analysis
+## Exploratory Data Analysis
 The project begins with exploratory data analysis to understand:
 - Sentiment class distribution  
 - Tweet length characteristics  
@@ -20,7 +17,7 @@ The project begins with exploratory data analysis to understand:
 
 This step helps identify class imbalance and guides preprocessing decisions.
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 Comprehensive text preprocessing is applied to improve data quality:
 - Lowercasing text  
 - Removing URLs, mentions, hashtags, and punctuation  
@@ -30,10 +27,10 @@ Comprehensive text preprocessing is applied to improve data quality:
 
 The cleaned dataset is split into **training, validation, and test sets** using **stratified sampling** to preserve the original sentiment distribution.
 
-## 🧠 Text Representation
+##  Text Representation
 To convert text into numerical form, the project leverages **DistilBERT**, a transformer-based language model that produces contextual embeddings. Each tweet is represented as a **768-dimensional vector** using mean pooling over token-level embeddings. These embeddings capture semantic meaning and sentiment context more effectively than traditional methods such as Bag-of-Words or TF-IDF.
 
-## 🤖 Model Architecture
+##  Model Architecture
 A neural network classifier is built using **TensorFlow/Keras** on top of the DistilBERT embeddings:
 - Two fully connected hidden layers with **ReLU** activation  
 - **Dropout regularization** to reduce overfitting  
@@ -41,7 +38,7 @@ A neural network classifier is built using **TensorFlow/Keras** on top of the Di
 
 The model is trained using the **Adam optimizer** and **categorical cross-entropy loss**.
 
-## 📈 Results and Evaluation
+##  Results and Evaluation
 - **Training Accuracy:** ~70%  
 - **Validation Accuracy:** ~68%  
 - Evaluation metrics include **accuracy, precision, recall, F1-score**, and **confusion matrix analysis**  
