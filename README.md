@@ -53,7 +53,27 @@ This project demonstrates practical experience with modern NLP techniques, trans
 
 ## Visualizations
 
-![Neural Network](neural_network.png)
-![Training Progress](training_progress.png)
+### Class Platform & Confusion Matrix
 ![Class Platform & Confusion Matrix](class_platform_confusion_matrix.png)
+**Description:** This plot shows the model's performance on each class using a **Confusion Matrix**, highlighting correct and incorrect predictions.
+
+---
+
+### Training Progress
+![Training Progress](training_progress.png)
+**Description:** This plot displays the model's accuracy over training epochs, helping to evaluate how the model improves over time.
+
+---
+
+### Class & Tweet Length Distribution
 ![Class & Tweet Length Distribution](class_tweet_length_distribution.png)
+**Description:** This plot shows:
+- The distribution of samples per class (**Class Distribution**)  
+- The distribution of tweet lengths (**Tweet Length Distribution**)  
+This helps to understand data balance and tweet length variability.
+
+---
+
+### Neural Network
+![Neural Network](neural_network.png)
+**Description:** This plot illustrates the **structure of the neural network** used for sentiment analysis, including layers and number of nodes per layer.
