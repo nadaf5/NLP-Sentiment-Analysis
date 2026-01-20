@@ -49,32 +49,18 @@ The project also demonstrates integration with a pretrained Hugging Face transfo
 
 ##  Conclusion
 This project demonstrates practical experience with modern NLP techniques, transformer-based embeddings, neural network modeling, and systematic evaluation. It provides a complete, end-to-end sentiment analysis workflow suitable for **academic coursework** and **machine learning portfolios**. 
-# Visualizations
-
-This section showcases key visualizations that help understand the data and the neural network model:
-
----
-
-### 1. Training Progress
-![Training Progress](Images/training_progress.png)  
-This figure shows the **training progress** of the model, including training **accuracy and loss** across epochs, to track the model’s improvement.
-
----
-
-### 2. Neural Network Architecture
-![Neural Network](Images/neural_network.png)  
-This diagram displays the **architecture of the neural network**, including layers and the number of units in each layer, providing an overview of the model design.
-
----
-
-### 3. Class & Platform Confusion Matrix
-![Class & Platform Confusion Matrix](Images/class_platform_confusion_matrix.png)  
-The confusion matrix shows the model’s performance in classifying **classes and platforms**, highlighting common misclassifications between categories.
-
----
-
-### 4. Class & Tweet Length Distribution
-![Class & Tweet Length Distribution](Images/class_tweet_length_distribution.png)  
-This plot illustrates the **distribution of classes and tweet lengths** in the dataset, helping to understand data balance and text length variations.
 
 
+## Visualizations
+
+### Class Platform and Confusion Matrix
+![Class Platform and Confusion Matrix](images/class_platform_confusion_matrix.png)
+
+### Training Progress
+![Training Progress](images/training_progress.png)
+
+### Class & Tweet Length Distribution
+![Class & Tweet Length Distribution](images/class_tweet_length_distribution.png)
+
+### Neural Network
+![Neural Network](images/neural_network.png)
