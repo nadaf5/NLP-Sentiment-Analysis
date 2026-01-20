@@ -63,4 +63,4 @@ This project demonstrates practical experience with modern NLP techniques, trans
 ![Class & Tweet Length Distribution](images/class_tweet_length_distribution.png)
 
 ### Neural Network
-![Neural Network](images/neural_network.png)
+![Neural Network](images/neural_network.png) 
