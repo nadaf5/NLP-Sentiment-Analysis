@@ -53,7 +53,7 @@ This project demonstrates practical experience with modern NLP techniques, trans
 
 ## Visualizations
 
-![Neural Network](images/neural_network.png)
-![Training Progress](images/training_progress.png)
-![Class Platform & Confusion Matrix](images/class_platform_confusion_matrix.png)
-![Class & Tweet Length Distribution](images/class_tweet_length_distribution.png)
+![Neural Network](neural_network.png)
+![Training Progress](training_progress.png)
+![Class Platform & Confusion Matrix](class_platform_confusion_matrix.png)
+![Class & Tweet Length Distribution](class_tweet_length_distribution.png)
