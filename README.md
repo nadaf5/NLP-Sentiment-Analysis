@@ -72,8 +72,15 @@ This project demonstrates practical experience with modern NLP techniques, trans
 - The distribution of tweet lengths (**Tweet Length Distribution**)  
 This helps to understand data balance and tweet length variability.
 
----
 
 ### Neural Network
 ![Neural Network](neural_network.png)
 **Description:** This plot illustrates the **structure of the neural network** used for sentiment analysis, including layers and number of nodes per layer.
+
+
+## Group Members
+
+This project was completed as a group effort by my team members:
+
+- [@layanKhalid0](https://github.com/layanKhalid0)
+- [@LamaTurki8](https://github.com/LamaTurki8)
