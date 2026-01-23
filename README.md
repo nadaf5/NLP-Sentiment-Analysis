@@ -82,5 +82,8 @@ This helps to understand data balance and tweet length variability.
 
 This project was completed as a group effort by my team members:
 
+members:
+
+- [@nadaf5](https://github.com/nadaf5)
 - [@layanKhalid0](https://github.com/layanKhalid0)
 - [@LamaTurki8](https://github.com/LamaTurki8)
